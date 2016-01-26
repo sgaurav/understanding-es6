@@ -19,6 +19,8 @@ __Available__
 
 * [maps](./maps.js)
 
+* [modules](./modules.js)
+
 * [rest-params](./rest-params.js)
 
 * [sets](./sets.js)
