@@ -27,6 +27,8 @@ __Available__
 
 * [spread](./spread.js)
 
+* [symbols](./symbols.js)
+
 * [template-string](./template-string.js)
 
 * [weakmaps](./weakmaps.js)
