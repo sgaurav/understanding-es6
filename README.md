@@ -5,6 +5,8 @@ __Available__
 
 * [arrow](./arrow.js)
 
+* [class](./class.js)
+
 * [constant](./constant.js)
 
 * [default-params](./default.js)
