@@ -1,5 +1,10 @@
 /**
-  * Class is a syntactical sugar over prototype based inheritance.
+  * extract data from arrays or objects
   */
 
-  //TODO -- Write a simple example for destructuring assignment
+var foo = [1, 2, 3];
+var [one, two, three] = foo;
+// one => 1, two => 2, three => 3
+
+var {a, b} = {a:1, b:2};
+// a => 1, b => 2

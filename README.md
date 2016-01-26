@@ -9,6 +9,8 @@ __Available__
 
 * [constant](./constant.js)
 
+* [destructuring-assignment](./destructuring-assignment.js)
+
 * [default-params](./default.js)
 
 * [generators](./generators.js)
