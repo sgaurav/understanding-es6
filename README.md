@@ -3,6 +3,8 @@ Simple examples to help you understand ES6
 
 __Available__
 
+* [arrow](./arrow.js)
+
 * [constant](./constant.js)
 
 * [default-params](./default.js)
