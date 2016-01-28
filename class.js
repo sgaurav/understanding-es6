@@ -8,7 +8,7 @@ class Animal {
   }
   
   makeNoise() {
-    return ('The' + this.type + ' goes ' + this.sound);
+    return ('The ' + this.type + ' goes ' + this.sound);
   }
 }
 
