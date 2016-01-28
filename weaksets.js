@@ -1,6 +1,6 @@
 /**
   * WeakSet are collection of objects. It allows to store weakly held objects 
-  * in collection. Weakly help objects are unique across collection.
+  * in collection. Weakly held objects are unique across collection.
   * Unlike Set, WeakSet can only store Objects. Objects are held weakly and no
   * reference is stored and hence prevents leaking.
   */
