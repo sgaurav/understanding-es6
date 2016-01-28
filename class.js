@@ -1,5 +1,5 @@
 /**
-  * Class is a syntactical sugar over prototype based inheritance.
+  * Class is syntactical sugar over prototype based inheritance.
   */
 class Animal { 
   constructor(type, sound) {
