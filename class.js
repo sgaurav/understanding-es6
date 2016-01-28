@@ -12,6 +12,6 @@ class Animal {
   }
 }
 
-var Simone = new Animal("cat", "meow");
+var simone = new Animal("cat", "meow");
 
-Simone.makeNoise(); // returns "The cat goes meow"
+simone.makeNoise(); // returns "The cat goes meow"
