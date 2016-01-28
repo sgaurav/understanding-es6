@@ -13,4 +13,7 @@ foo.has(1); // true
 
 foo.size; // 3
 
+foo.add(1);
+foo.size // Still 3
+
 foo.delete(2); // removes 2 from foo
