@@ -1,5 +1,5 @@
 /**
-  * Arrow functions have shorter syntax that function expression.
+  * Arrow functions have shorter syntax than function expressions.
   * These functions also lexically bind `this` value and are always anonymous.
   */
   
@@ -25,7 +25,7 @@ var foobar = function() {
     console.log("World");
 }
 
-//Returning onbject literal. Requires Brackets.
+//Returning object literal. Requires Brackets.
 let quux = () => ({ "myProp" : 123 });
 
 //ES5
