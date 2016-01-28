@@ -19,4 +19,4 @@ w.set(z, "xyz"); // error - key needs to be an object
 w.get(x); // bar
 w.get(y); // 123
 
-w.has(x); // trues
+w.has(x); // true
