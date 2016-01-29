@@ -23,7 +23,7 @@ let foobar = () => {
 var foobar = function() {
     console.log("Hello");
     console.log("World");
-}
+};
 
 //Returning object literal. Requires Brackets.
 let quux = () => ({ "myProp" : 123 });
