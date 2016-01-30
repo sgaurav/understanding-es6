@@ -3,7 +3,7 @@
   * A Promise represents an operation that hasn't completed yet, but is expected in the future.
   */
 
-var promise = new Promise(function (resolve, reject) {
+var foo = new Promise(function (resolve, reject) {
   //Check if the current timestamp is an even number and resolve
   if (Date.now() % 2 === 0) {
     //Pass a status code of 200 to the success callback function
@@ -16,12 +16,12 @@ var promise = new Promise(function (resolve, reject) {
 
 //When the promise has successfully resolved, execute the following
 //callback function
-promise.then(function (status) {
+foo.then(function (status) {
   console.log("Successfully resolved: " + status);
 });
 
 //When the promise is rejected i.e. an error, execute the following
 //callback function
-promise.catch(function (status) {
+foo.catch(function (status) {
   console.log("An error occurred: " + status);
 });
