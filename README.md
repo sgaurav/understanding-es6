@@ -23,6 +23,8 @@ __Available__
 
 * [promises](./promises.js)
 
+* [proxy](./proxy.js)
+
 * [rest-params](./rest-params.js)
 
 * [sets](./sets.js)
