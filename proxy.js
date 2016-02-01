@@ -15,7 +15,7 @@ let proxy = new Proxy(target, {
   },
   set (obj, prop, val){
     if(prop === 'password'){
-      if(prop.length<8){
+      if(val.length<8){
         throw new TypeError('The length of password should be greater than 8');
       } else {
         obj[prop] = val;
