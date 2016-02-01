@@ -21,6 +21,8 @@ __Available__
 
 * [modules](./modules.js)
 
+* [proxy](./proxy.js)
+
 * [rest-params](./rest-params.js)
 
 * [sets](./sets.js)
