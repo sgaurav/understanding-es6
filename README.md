@@ -21,6 +21,8 @@ __Available__
 
 * [modules](./modules.js)
 
+* [promises](./promises.js)
+
 * [rest-params](./rest-params.js)
 
 * [sets](./sets.js)
