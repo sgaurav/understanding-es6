@@ -10,14 +10,26 @@ let target = {
 };
 
 let proxy = new Proxy(target, {
-  get (receiver, name) {
-      return name in receiver ? receiver[name] : `Howdy, ${name}`
+  get (obj, prop, val) {
+      return val in obj ? obj[val] : 'Howdy, ${val}'
+  },
+  set (obj, prop, val){
+    if(prop === 'password'){
+      if(prop.length<8){
+        throw new TypeError('The length of password should be greater than 8');
+      } else {
+        obj[prop] = val;
+      }
+    } else {
+      obj[prop] = val;
+    }
   }
 });
 
 proxy.guest;  // "Welcome, Guest"
-proxy.userX // "Howdy, UserX"
-
+proxy.userX; // "Howdy, UserX"
+proxy.password = 'abc'; //Error The length of password should be greater than 8.
+proxy.age = 22; //age=22
 
 
 
