@@ -1,0 +1,10 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    // Override Airbnb's style guide defaults for ES5
+    "indent": [2, 4, {"SwitchCase": 1}],
+    "max-len": [2, 256, 4],
+    "no-console": 0,
+    "no-param-reassign": 0
+  }
+}

@@ -1,24 +1,34 @@
 /**
-  * Syntactic sugar for string construction
-  */
+ * Syntactic sugar for string construction
+ */
 
-var x = "foo";
-var y = "bar";
+const x = 'foo';
+const y = 'bar';
 
-// es5
+/*
+ * ES5
+ */
 var join = x + ' ' + y; // foo bar
 
-// es6
-var join = `${x} ${y}`; // foo bar
+/*
+ * ES6
+ */
+const join = `${x} ${y}`; // foo bar
+console.log(join);
 
 /*
 foo
 bar
 */
 
-// es5
+/*
+ * ES5
+ */
 var join = x + '\n' + y;
 
-// es6
-var join = `${x}
+/*
+ * ES6
+ */
+const join = `${x}
 ${y}`;
+console.log(join);

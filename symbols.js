@@ -1,6 +1,9 @@
 /**
-  * unique and immutable datatype
-  */
+ * unique and immutable datatype
+ */
 
-var foo = Symbol();
-var bar = Symbol("foo");
+const foo = Symbol();
+const bar = Symbol('foo');
+
+console.log(foo);
+console.log(bar);
