@@ -40,7 +40,7 @@ let bob = {
   _friends: [],
   printFriends: function () {
     this._friends.forEach(f => {
-      console.log(this._name + " knows " + f)
+      console.log(this._name + " knows " + f);
     });
   }
 };
@@ -52,7 +52,7 @@ var bob = {
   printFriends: function () {
     var self = this;
     this._friends.forEach(function (f) {
-      console.log(self._name + "knows " + f));
+      console.log(self._name + "knows " + f);
     });
   }
 };
