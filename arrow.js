@@ -32,3 +32,27 @@ let quux = () => ({ "myProp" : 123 });
 var quux = function() {
     return { "myProp" : 123 };
 };
+
+
+// lexical binding for `this`
+let bob = {
+  _name: "Bob",
+  _friends: [],
+  printFriends: function () {
+    this._friends.forEach(f => {
+      console.log(this._name + " knows " + f)
+    });
+  }
+};
+
+// ES5
+var bob = {
+  _name: "Bob",
+  _friends: [],
+  printFriends: function () {
+    var self = this;
+    this._friends.forEach(function (f) {
+      console.log(self._name + "knows " + f));
+    });
+  }
+};
