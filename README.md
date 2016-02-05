@@ -1,6 +1,8 @@
 # understanding-es6
 Simple examples to help you understand ES6.
 
+> You can track evolution of ES7 at [ES7 Features](https://github.com/sgaurav/es7features)
+
 __Available__
 
 * [arrow](./arrow.js)
