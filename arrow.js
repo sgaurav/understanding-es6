@@ -32,3 +32,49 @@ let quux = () => ({ "myProp" : 123 });
 var quux = function() {
     return { "myProp" : 123 };
 };
+
+
+// Lexical binding with arrow functions
+// Meaning, it uses “this” from the surrounding code… 
+// the code that contains the code in question. 
+
+
+// ES5
+function Timer() {
+    // The Timer() constructor defines `this` as an instance of itself.
+    this.seconds = 0;
+
+    setInterval(function() {
+        // In non-strict mode, this callback function defines `this` 
+        // as the global object, which is different from the `this`
+        // defined by the Timer() constructor.
+        this.seconds++;
+    }, 1000);
+};
+
+var t = new Timer();
+
+// A common fix/hack is assigning a variable to the outer function's 'this'
+
+function Timer() {
+    var self = this; // assigning to variable
+    self.seconds = 0;
+
+  setInterval(function() {
+      // The callback refers to the `self` variable of which
+      // the value is the expected object.
+      self.seconds++;
+  }, 1000);
+};
+
+// With ES6 Arrow functions, no need to apply this hack
+
+function Timer(){
+    this.age = 0;
+
+    setInterval(() => {
+        this.age++; // |this| properly refers to the Timer object
+    }, 1000);
+};
+
+var t = new Timer();
