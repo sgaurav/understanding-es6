@@ -4,7 +4,7 @@ var gulp = require('gulp');
 var eslint = require('gulp-eslint');
 var gulpIf = require('gulp-if');
 
-// Check the main js file meets the following standards outlined in .eslintrc
+// Check the main js file(s) meets the following standards outlined in .eslintrc
 gulp.task('eslint', function esLintTask() {
     // Has ESLint fixed the file contents?
     function isFixed(file) {

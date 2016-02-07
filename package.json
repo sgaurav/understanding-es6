@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/sgaurav/understanding-es6#readme",
   "devDependencies": {
-    "eslint-config-airbnb": "^4.0.0",
+    "eslint-config-airbnb": "^5.0.0",
     "eslint-plugin-react": "^3.16.1",
     "gulp": "^3.9.0",
     "gulp-eslint": "^1.1.1",
