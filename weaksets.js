@@ -1,20 +1,22 @@
 /**
-  * WeakSet are collection of objects. It allows to store weakly held objects 
+  * WeakSet are collection of objects. It allows to store weakly held objects
   * in collection. Weakly held objects are unique across collection.
   * Unlike Set, WeakSet can only store Objects. Objects are held weakly and no
   * reference is stored and hence prevents leaking.
   */
 
-var x = {};
-var y = function(){};
+const x = {};
+const y = function y() {};
+const z = 'foo';
 
-var ws = new WeakSet();
+const ws = new WeakSet();
 
 ws.add(x);
 ws.add(y);
+ws.add(z);
 
-ws.has(x); // true
+console.log(ws.has(x)); // true
 
 ws.delete(x);
 
-ws.clear(); // purge whole weakset
+ws.clear(); // Purge the whole WeakSet

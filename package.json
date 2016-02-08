@@ -1,0 +1,28 @@
+{
+  "name": "understanding-es6",
+  "version": "1.0.0",
+  "description": "Simple examples to help you understand ES6",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgaurav/understanding-es6.git"
+  },
+  "keywords": [
+    "es6",
+    "es2015",
+    "understanding"
+  ],
+  "author": "sgaurav",
+  "license": "Undefined",
+  "bugs": {
+    "url": "https://github.com/sgaurav/understanding-es6/issues"
+  },
+  "homepage": "https://github.com/sgaurav/understanding-es6#readme",
+  "devDependencies": {
+    "eslint-config-airbnb": "^5.0.0",
+    "eslint-plugin-react": "^3.16.1",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.1.1",
+    "gulp-if": "^2.0.0"
+  }
+}

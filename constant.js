@@ -1,19 +1,19 @@
 /**
-  * constant is a single assignment variable.
-  */
+ * Constant is a single assignment variable.
+ */
 
-function foo(){
+function foo() {
     const i = 1;
-    
+
     var bar = i; // 1
-    var i = 2;  // error
+    var i = 2; // Error
 }
 
-function fooTwo(){
+function fooTwo() {
     const object = {
-        nestedProperty: 1
+        nestedProperty: 1,
     };
-    
-    object = 2; // error
-    object.nestedProperty = 2;  // no error
+
+    object = 2; // Error
+    object.nestedProperty = 2; // No error
 }

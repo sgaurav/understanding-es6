@@ -40,3 +40,17 @@ __Available__
 * [weakmaps](./weakmaps.js)
 
 * [weaksets](./weaksets.js)
+
+## Contribute
+
+To contribute to the project, you will first need to install [Node](http://nodejs.org) globally on your system. Once installation has completed, change the working directory to this location and run the following command:
+
+```shell
+    npm install
+```
+
+### ESLint
+Call the following command to invoke ESLint and check that the changes meet the requirements set in .eslintrc.
+```shell
+    gulp eslint
+```

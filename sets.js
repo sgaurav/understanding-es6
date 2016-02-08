@@ -3,14 +3,14 @@
   * insertion of its elements.
   */
 
-var foo = new Set();
+const foo = new Set();
 
 foo.add(1);
 foo.add(2);
-foo.add("three");
+foo.add('three');
 
 foo.has(1); // true
 
-foo.size; // 3
+console.log(foo.size); // 3
 
-foo.delete(2); // removes 2 from foo
+foo.delete(2); // Removes 2 from foo
