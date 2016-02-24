@@ -8,3 +8,7 @@ var [one, two, three] = foo;
 
 var {a, b} = {a:1, b:2};
 // a => 1, b => 2
+
+var {a: foo, b: bar} = {a: 1, b: 2};
+// foo => 1, bar => 2
+// console.log(a, b) => ReferenceError
